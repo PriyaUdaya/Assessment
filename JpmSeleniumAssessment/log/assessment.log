@@ -1,0 +1,8 @@
+[main] INFO  com.javautils.Log4jProperties  - Starting execution....
+[main] INFO  com.javautils.Log4jProperties  - Requested application URL is https://www.google.com
+[main] INFO  com.javautils.Log4jProperties  - CHROME Browser is used for execution
+[main] INFO  com.javautils.Log4jProperties  - Chrome driver path retrieved successfully
+[main] INFO  com.javautils.Log4jProperties  - Click on SearchText area
+[main] INFO  com.javautils.Log4jProperties  - Enter given data and hit search button
+[main] INFO  com.javautils.Log4jProperties  - Click on the first result
+[main] INFO  com.javautils.Log4jProperties  - Verify logo image is displayed

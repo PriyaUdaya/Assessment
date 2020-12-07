@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="25.125865">
+<testcase classname="Search for a page and verify logo" name="Verify the user is able to search a give text" time="25.125865">
+<system-out><![CDATA[Given user navigate to application..........................................passed
+When user enter given J P Morgan and click on Search button.................passed
+Then click on the link......................................................passed
+And verify the logo displayed...............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

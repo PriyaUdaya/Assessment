@@ -1,0 +1,117 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 198688600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GoogleSearchStepDefs.setUP()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Verify the user is able to search a give text",
+        "description": "",
+        "id": "search-for-a-page-and-verify-logo;verify-the-user-is-able-to-search-a-give-text;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 163283300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GoogleSearchStepDefs.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11895595801,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user navigate to application",
+            "match": {
+              "location": "GoogleSearchStepDefs.navigateToApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2763581900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter given J P Morgan and click on Search button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "J P Morgan",
+                  "offset": 17
+                }
+              ],
+              "location": "GoogleSearchStepDefs.performSearch(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10002551100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on the link",
+            "match": {
+              "location": "GoogleSearchStepDefs.clickResult()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 102164300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify the logo displayed",
+            "match": {
+              "location": "GoogleSearchStepDefs.verifyLogo()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@searchGivenData"
+          },
+          {
+            "line": 1,
+            "name": "@verifyLogo"
+          }
+        ]
+      }
+    ],
+    "name": "Search for a page and verify logo",
+    "description": "",
+    "id": "search-for-a-page-and-verify-logo",
+    "keyword": "Feature",
+    "uri": "verifyLogo.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@verifyLogo"
+      }
+    ]
+  }
+]
